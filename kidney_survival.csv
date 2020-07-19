@@ -1,0 +1,215 @@
+donor,time,censor,Group
+1,4.94,1,delayed
+2,81.82,0,delayed
+3,99.18,0,delayed
+4,16.33,1,delayed
+5,105.51,1,delayed
+6,12.89,1,delayed
+7,9.61,1,delayed
+8,7.12,0,delayed
+9,22.96,1,delayed
+10,94.44,0,delayed
+11,25.84,1,delayed
+12,165.70,0,delayed
+13,3.38,1,delayed
+14,17.42,1,delayed
+15,72.58,1,delayed
+16,53.23,0,delayed
+17,216.58,0,delayed
+18,116.57,0,delayed
+19,35.51,1,delayed
+20,98.09,1,delayed
+21,135.25,1,delayed
+22,60.92,0,delayed
+23,208.80,0,delayed
+24,68.54,1,delayed
+25,8.05,1,delayed
+26,99.41,0,delayed
+27,24.31,1,delayed
+28,106.70,1,delayed
+29,136.05,0,delayed
+30,13.88,0,delayed
+31,13.81,1,delayed
+32,187.03,0,delayed
+33,6.53,0,delayed
+34,132.01,1,delayed
+35,42.57,1,delayed
+36,60.85,0,delayed
+37,173.75,0,delayed
+38,168.08,0,delayed
+39,36.44,0,delayed
+40,98.32,1,delayed
+41,163.78,0,delayed
+42,66.92,0,delayed
+43,141.98,0,delayed
+44,78.77,0,delayed
+45,28.49,1,delayed
+46,64.66,1,delayed
+47,86.53,1,delayed
+48,152.31,0,delayed
+49,56.75,1,delayed
+50,68.21,1,delayed
+51,5.30,0,delayed
+52,52.27,1,delayed
+53,132.70,0,delayed
+54,92.19,0,delayed
+55,96.17,0,delayed
+56,74.43,0,delayed
+57,22.99,1,delayed
+58,29.12,1,delayed
+59,124.89,0,delayed
+60,121.54,0,delayed
+61,95.67,1,delayed
+62,114.22,0,delayed
+63,111.34,0,delayed
+64,110.67,0,delayed
+65,8.02,1,delayed
+66,42.83,1,delayed
+67,9.47,1,delayed
+68,106.27,0,delayed
+69,8.65,1,delayed
+70,24.08,0,delayed
+71,43.16,1,delayed
+72,95.20,1,delayed
+73,4.87,0,delayed
+74,3.98,1,delayed
+75,97.23,0,delayed
+76,96.03,0,delayed
+77,92.72,0,delayed
+78,43.59,1,delayed
+79,90.80,0,delayed
+80,32.93,1,delayed
+81,81.62,0,delayed
+82,81.59,0,delayed
+83,15.90,0,delayed
+84,63.54,0,delayed
+85,77.85,0,delayed
+86,75.79,0,delayed
+87,69.10,0,delayed
+88,66.82,0,delayed
+89,65.36,0,delayed
+90,63.64,0,delayed
+91,58.57,0,delayed
+92,50.68,0,delayed
+93,49.92,0,delayed
+94,49.92,0,delayed
+95,46.81,0,delayed
+96,46.81,0,delayed
+97,46.41,0,delayed
+98,45.85,0,delayed
+99,43.46,0,delayed
+100,42.93,0,delayed
+101,26.07,1,delayed
+102,41.51,0,delayed
+103,39.45,0,delayed
+104,38.13,0,delayed
+105,37.93,0,delayed
+106,37.47,0,delayed
+107,37.43,0,delayed
+108,21.63,1,not delayed
+109,4.27,1,not delayed
+110,82.09,0,not delayed
+111,34.35,0,not delayed
+112,107.36,1,not delayed
+113,5.40,1,not delayed
+114,159.57,0,not delayed
+115,56.81,0,not delayed
+116,25.44,1,not delayed
+117,209.62,1,not delayed
+118,184.61,1,not delayed
+119,70.43,1,not delayed
+120,49.42,1,not delayed
+121,218.93,0,not delayed
+122,109.25,0,not delayed
+123,121.01,0,not delayed
+124,216.58,0,not delayed
+125,213.73,0,not delayed
+126,19.64,0,not delayed
+127,61.78,1,not delayed
+128,64.99,1,not delayed
+129,91.56,0,not delayed
+130,24.25,0,not delayed
+131,105.74,1,not delayed
+132,99.58,0,not delayed
+133,82.75,1,not delayed
+134,108.02,1,not delayed
+135,166.49,0,not delayed
+136,97.56,1,not delayed
+137,40.15,0,not delayed
+138,193.95,0,not delayed
+139,51.45,0,not delayed
+140,35.45,0,not delayed
+141,51.58,0,not delayed
+142,176.07,0,not delayed
+143,174.81,0,not delayed
+144,36.90,0,not delayed
+145,136.81,0,not delayed
+146,166.46,0,not delayed
+147,11.26,0,not delayed
+148,163.74,0,not delayed
+149,15.67,0,not delayed
+150,41.47,0,not delayed
+151,157.55,0,not delayed
+152,49.39,1,not delayed
+153,155.53,0,not delayed
+154,153.97,0,not delayed
+155,72.08,0,not delayed
+156,96.99,0,not delayed
+157,147.08,0,not delayed
+158,145.95,0,not delayed
+159,134.26,0,not delayed
+160,132.70,0,not delayed
+161,85.43,0,not delayed
+162,26.83,0,not delayed
+163,88.31,0,not delayed
+164,130.62,0,not delayed
+165,127.64,0,not delayed
+166,124.89,0,not delayed
+167,121.54,0,not delayed
+168,116.90,0,not delayed
+169,22.56,1,not delayed
+170,73.71,0,not delayed
+171,110.67,0,not delayed
+172,109.12,0,not delayed
+173,108.02,0,not delayed
+174,34.48,0,not delayed
+175,106.27,0,not delayed
+176,105.24,0,not delayed
+177,103.09,0,not delayed
+178,101.53,0,not delayed
+179,25.41,1,not delayed
+180,99.58,0,not delayed
+181,99.28,0,not delayed
+182,21.07,0,not delayed
+183,96.00,0,not delayed
+184,92.72,0,not delayed
+185,92.52,0,not delayed
+186,90.80,0,not delayed
+187,38.79,1,not delayed
+188,81.62,0,not delayed
+189,59.79,0,not delayed
+190,81.03,0,not delayed
+191,79.14,0,not delayed
+192,77.81,0,not delayed
+193,75.79,0,not delayed
+194,69.10,0,not delayed
+195,12.12,1,not delayed
+196,65.33,0,not delayed
+197,41.77,0,not delayed
+198,58.60,0,not delayed
+199,21.70,0,not delayed
+200,49.92,0,not delayed
+201,49.92,0,not delayed
+202,18.72,1,not delayed
+203,43.03,1,not delayed
+204,46.41,0,not delayed
+205,45.85,0,not delayed
+206,38.59,0,not delayed
+207,28.36,0,not delayed
+208,42.34,0,not delayed
+209,41.51,0,not delayed
+210,19.68,1,not delayed
+211,38.13,0,not delayed
+212,37.93,0,not delayed
+213,37.47,0,not delayed
+214,37.43,0,not delayed
