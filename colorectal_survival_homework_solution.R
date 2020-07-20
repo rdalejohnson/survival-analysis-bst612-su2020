@@ -40,6 +40,27 @@ colorectalDataset$SurvObj = with(colorectalDataset, Surv(months, censor == 1))
 #note that the SurvObj column is now in place
 head(colorectalDataset)
 
+###OVERALL SURVIVAL FOR COMBINED GROUPS/ENTIRE DATE SET
+km.by.combine = survfit(formula = Surv(months, censor) ~ 1, data = colorectalDataset , conf.type = "log-log")
+
+#plot(km.by.combine, xlab="months", ylab = "Survival Probability", title = "Combined Kaplan-Meier Curve for Colorectal Cancer")
+
+library(survminer)
+
+ggsurvplot(
+  fit = survfit(Surv(months, censor) ~ 1, data = colorectalDataset), 
+  xlab = "Time(Months)", 
+  ylab = "Overall colorectal cancer survival probability",
+  title = "Combined Kaplan-Meier Curve for Colorectal Cancer (n=77)")
+
+km.by.combine
+
+summary(km.by.combine)
+
+
+
+
+
 km.by.group = survfit(formula = Surv(months, censor) ~ strata(number), data = colorectalDataset, conf.type = "log-log")
 
 plot(km.by.group, lty=c(1,3), xlab="months", ylab = "Survival Probability")
@@ -52,13 +73,6 @@ group.survival = survdiff(Surv(months, censor) ~ number, data=colorectalDataset,
 summary(km.by.group)
 
 
-###
-km.by.combine = survfit(formula = Surv(months, censor) ~ 1, data = colorectalDataset, conf.type = "log-log")
 
-plot(km.by.combine, xlab="months", ylab = "Survival Probability")
-
-km.by.combine
-
-summary(km.by.combine)
 
 
