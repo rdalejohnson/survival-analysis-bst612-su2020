@@ -59,4 +59,32 @@ km.by.combine
 
 summary(km.by.combine)
 
+survfit(Surv(time, censor) ~ 1, data = kidneyDataset)
+survfit(Surv(time, censor) ~ strata(Group), data = kidneyDataset)
 
+
+
+
+
+# SURVIVAL TO 60 MONTHS FOR ENTIRE SAMPLE AND EACH GROUP
+
+summary(survfit(Surv(time, censor) ~ 1, data = kidneyDataset), times = 60)
+
+summary(survfit(formula = Surv(time, censor) ~ strata(Group), data = kidneyDataset, conf.type = "log-log"), times=60)
+
+
+survfit(formula = Surv(time, censor) ~ strata(Group), data = kidneyDataset)
+
+
+summary(km.by.combine)$table   #median survival time
+
+summary(km.by.group)$table   #median survival time
+
+
+
+library(survminer)
+
+#median survival both groups
+survminer::surv_median(km.by.group)
+
+survminer::surv_summary(km.by.group)
