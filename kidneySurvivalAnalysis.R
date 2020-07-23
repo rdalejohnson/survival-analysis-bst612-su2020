@@ -70,6 +70,9 @@ survfit(Surv(time, censor) ~ strata(Group), data = kidneyDataset)
 
 summary(survfit(Surv(time, censor) ~ 1, data = kidneyDataset), times = 60)
 
+summary(survfit(Surv(time, censor) ~ 1, data = kidneyDataset))
+
+
 summary(survfit(formula = Surv(time, censor) ~ strata(Group), data = kidneyDataset, conf.type = "log-log"), times=60)
 
 
@@ -85,6 +88,6 @@ summary(km.by.group)$table   #median survival time
 library(survminer)
 
 #median survival both groups
-survminer::surv_median(km.by.group)
-
-survminer::surv_summary(km.by.group)
+# survminer::surv_median(km.by.group)
+# 
+# survminer::surv_summary(km.by.group)

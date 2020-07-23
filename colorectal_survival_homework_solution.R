@@ -51,13 +51,17 @@ ggsurvplot(
   fit = survfit(Surv(months, censor) ~ 1, data = colorectalDataset), 
   xlab = "Time(Months)", 
   ylab = "Overall colorectal cancer survival probability",
-  title = "Combined Kaplan-Meier Curve for Colorectal Cancer (n=77)")
+  title = "Figure 1: Combined Kaplan-Meier Curve for Colorectal Cancer (n=77)",
+  subtitle = "Note: Shaded areas are 95% confidence interval"
+) 
+
 
 km.by.combine
 
 summary(km.by.combine)
 
-
+#### FIVE YEAR/60 MONTH SURVIVAL PROBABILITY
+summary(survfit(Surv(months, censor) ~ 1, data = colorectalDataset), times = 60)
 
 
 
