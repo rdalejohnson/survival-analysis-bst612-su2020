@@ -47,6 +47,8 @@ km.by.group
 
 group.survival = survdiff(Surv(time, censor) ~ Group, data=kidneyDataset, rho=0)
 
+group.survival
+
 summary(km.by.group)
 
 

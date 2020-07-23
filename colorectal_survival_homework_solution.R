@@ -67,14 +67,37 @@ summary(survfit(Surv(months, censor) ~ 1, data = colorectalDataset), times = 60)
 
 km.by.group = survfit(formula = Surv(months, censor) ~ strata(number), data = colorectalDataset, conf.type = "log-log")
 
-plot(km.by.group, lty=c(1,3), xlab="months", ylab = "Survival Probability")
+plot(km.by.group, lty=c(1,3), xlab="Months", ylab = "Survival Probability")
 legend(7, 0.3, c("delayed", "not delayed"), lty=c(1,3))
+
+ggsurvplot(
+  fit = survfit(Surv(months, censor) ~ number, data = colorectalDataset), 
+  xlab = "Time (Months)", 
+  ylab = "Overall colorectal cancer survival probability",
+  legend.title = "",
+  legend.labs=c(">1 PM", "1 PM"),
+  title = "Figure 2: Combined Kaplan-Meier Curve; PM>1 (n=31); PM=1 (n=46)"
+) 
+
+
 
 km.by.group
 
 group.survival = survdiff(Surv(months, censor) ~ number, data=colorectalDataset, rho=0)
 
+#### CHI SQUARE AND STATISTICAL SIGNIFANCE P-VALUE OF THE TWO GROUPS
+#### CHI SQUARE AND STATISTICAL SIGNIFANCE P-VALUE OF THE TWO GROUPS
+#### CHI SQUARE AND STATISTICAL SIGNIFANCE P-VALUE OF THE TWO GROUPS
+#### CHI SQUARE AND STATISTICAL SIGNIFANCE P-VALUE OF THE TWO GROUPS
+
+group.survival
+
+km.by.group
+
 summary(km.by.group)
+
+
+summary(survfit(formula = Surv(months, censor) ~ strata(number), data = colorectalDataset, conf.type = "log-log"), times=60)
 
 
 
